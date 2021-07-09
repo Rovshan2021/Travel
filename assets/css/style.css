@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #fff;
+    --openF: 'Open Sans', sans-serif;
+    --btn: #fd4f32;
+    --mserrat: 'Montserrat', sans-serif;
+    --h1clr: #323232;
+    --pclr: #8b8b8b;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* header css start */
+
+header{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+nav i{
+    color: var(--white);
+    font-size: 24px;
+}
+
+header h1{
+font: 300 52px var(--openF);
+letter-spacing: 2px;
+color: var(--white);
+text-align: center;
+margin-top: 210px;
+}
+
+header input{
+font: 400 16px var(--openF);
+letter-spacing: 1px;
+color: var(--pclr);
+border: none;
+outline: none;
+width: 325px;
+padding: 13px 0 13px 15px;
+}
+
+header button{
+    font: 700 16px var(--openF);
+letter-spacing: 1px;
+color: var(--white);
+background-color: var(--btn);
+border: none;
+outline: none;
+padding: 13px 50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 206px;
+}
+
+/* destinations start */
+
+.destinations{
+    background-color: #eeeeee;
+    border-bottom: 1px solid #e7e7e7;
+}
+.destinations h1{
+    font: 400 16px var(--mserrat);
+    letter-spacing: 0px;
+    color: var(--h1clr);
+    text-transform: uppercase;
+    padding: 59px 0 14px 0;
+}
+.destinations p{
+    font: 400 15px var(--mserrat);
+    letter-spacing: 0px;
+    color: var(--pclr);
+    margin-bottom: 40px;
+}
+.destinations img{
+    width: 240px;
+    height: 200px;
+    object-fit: cover;
+}
+.destinations-info h1{
+    font: 400 14px var(--mserrat);
+    letter-spacing: 0px;
+    color: var(--h1clr);
+    text-transform: uppercase;
+    padding: 20px 0 19px 20px;
+}
+.destinations-info p{
+    font: 400 13px var(--openF);
+    letter-spacing: 0px;
+    color: #696969;
+    padding: 0 35px 18px 20px;
+}
+.destinations-info div{
+    width: 240px;
+    background-color: var(--white);
+    border-bottom: 2px solid #e1dfd8;
+}
+.destinations-info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 68px;
+}
+
+/* Before you leave start */
+.before-you-leave{
+    background-color: var(--white);
+    border-bottom: 1px solid #e7e7e7;
+}
+.before-you-leave h1{
+    font: 300 52px var(--openF);
+    letter-spacing: 2px;
+    color: var(--h1clr);
+    padding-top: 83px;
+}
+.before-you-leave-text h1{
+    font: 400 16px var(--mserrat);
+    letter-spacing: 0px;
+    color: var(--h1clr);
+    text-transform: uppercase;
+    padding-top: 69px;
+}
+.before-you-leave-text p{
+    font: 400 15px var(--openF);
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: var(--pclr);
+    padding-right: 50px;
+    margin-top: 19px;
+}
+.before-you-leave-text div{
+    width: 333px;
+}
+.before-you-leave-text{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+}
+h2{
+    font: 400 16px var(--mserrat);
+    letter-spacing: 0px;
+    color: var(--h1clr);
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 75px;
+}
+.before-you-leave input{
+    font: 400 16px var(--openF);
+    letter-spacing: 1px;
+    color: var(--pclr);
+    background-color: #eeeeee;
+    border: none;
+    outline: none;
+    width: 325px;
+    padding: 13px 0 13px 15px;
+}
+
+.before-you-leave button{
+    font: 700 16px var(--openF);
+    letter-spacing: 1px;
+    color: var(--white);
+    background-color: var(--btn);
+    border: none;
+    outline: none;
+    padding: 13px 50px;
+}
+
+.before-you-leave form{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+/* footer start */
+footer{
+    height: 72px;
+    background-color: #eeeeee;
+}
+footer ul li{
+    float: left;
+    padding-right: 17px;
+    list-style: none;
+}
+footer p{
+    font: 400 14px var(--openF);
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: var(--pclr);
+}
+footer ul li a{
+    display: block;
+    font: 400 14px var(--mserrat);
+    letter-spacing: 0px;
+    color: var(--h1clr);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
